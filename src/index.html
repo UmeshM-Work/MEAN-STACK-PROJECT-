@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MyApp</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <style>
+        #loader {
+            background-image: url(assets/images/gana3.jpg);
+            background-size: contain;
+            border: 16px solid #000000;
+            border-radius: 50%;
+            border-top: 16px solid #af0c0c;
+            width: 120px;
+            height: 120px;
+            -webkit-animation: spin 3s linear infinite;
+            /* Safari */
+            animation: spin 3s linear infinite;
+        }
+        /* Safari */
+        
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body style="background-color: black;">
+    <app-root>
+
+        <div id="loader"></div>
+
+
+    </app-root>
+</body>
+
+</html>
