@@ -1,0 +1,39 @@
+#row1::-webkit-scrollbar {
+    display: none;
+}
+
+.body1 {
+    {
+        background-repeat: repeat-x;
+        animation: 500s para infinite linear;
+    }
+    @keyframes para {
+        100% {
+            background-position: -5000px 20%, -800px 95%, 500px 50%, 1000px 100%, 400px 0;
+        }
+    }
+}
+
+#a1 {
+    border: unset white;
+    border-radius: 8px 8px;
+    box-shadow: 0px 0px 30px 10px black;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#a1:hover {
+    transform: scale(0.9);
+}
+
+#e1 {
+    border: unset black;
+    border-radius: 8px 8px;
+    box-shadow: 0px 0px 9px 1px white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#e1:hover {
+    transform: scale(1.1);
+}
